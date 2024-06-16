@@ -1,0 +1,16 @@
+.fab-button{
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   padding: 10px 20px;
+   font-size: 18px;
+   color: black;
+   cursor: pointer;
+   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+}
+
+.fab-button:hover {
+    transform: translateX(10px);
+    background-color: rgb(0, 102, 255);
+}
